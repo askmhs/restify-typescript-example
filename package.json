@@ -1,0 +1,29 @@
+{
+  "name": "restify-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "start": "nodemon index.ts --exec ts-node",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "author": "Muhammad Harits Syaifulloh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/mongoose": "^5.5.16",
+    "@types/restify": "^8.4.0",
+    "dotenv": "^8.1.0",
+    "mongoose": "^5.6.11",
+    "restify": "^8.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.2"
+  }
+}
