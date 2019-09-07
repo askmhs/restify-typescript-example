@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node_modules/.bin/tsc",
     "start": "nodemon index.ts --exec ts-node",
-    "lint": "tslint -c tslint.json -p tsconfig.json"
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "postinstall": "cp service.example.json service.json; cp env.example.json env.json"
   },
   "author": "Muhammad Harits Syaifulloh",
   "license": "ISC",
