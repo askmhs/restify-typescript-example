@@ -3,6 +3,7 @@
 - Clone this repository
 - Change directory by running `cd restify-typescript-example` command
 - Run `npm install` to install dependencies
+- Run `npm install nodemon -g` to install nodemon globally
 - Edit the ENV variable values inside `.env` file and adjust Your configuration
 - Run server: `npm start`
 
