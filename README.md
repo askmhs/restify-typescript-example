@@ -1,5 +1,6 @@
 # Restify TypeScript Example
 ### Getting Started:
+- Start your MongoDB server
 - Clone this repository
 - Change directory by running `cd restify-typescript-example` command
 - Run `npm install` to install dependencies
