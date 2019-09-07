@@ -1,6 +1,5 @@
-import {IUser} from "../interfaces/user_interface";
 import {userModel} from "../models/user_model";
-import {Document} from "mongoose";
+import {IUser} from "../interfaces/user_interface";
 
 export class UserService {
 
